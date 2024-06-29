@@ -36,6 +36,7 @@ def main():
             num_lines += 1
             num_bytes += len(line)
             num_words += len(line.split())
+            
 
         total_lines += num_lines
         total_bytes += num_bytes

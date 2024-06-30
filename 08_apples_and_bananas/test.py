@@ -5,7 +5,7 @@ import re
 import os
 from subprocess import getstatusoutput, getoutput
 
-prg = './apples.py'
+prg = 'apples.py'
 fox = '../inputs/fox.txt'
 
 

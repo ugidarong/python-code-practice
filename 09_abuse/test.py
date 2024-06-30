@@ -7,7 +7,7 @@ import re
 import string
 from subprocess import getstatusoutput, getoutput
 
-prg = './abuse.py'
+prg = 'abuse.py'
 
 
 # --------------------------------------------------

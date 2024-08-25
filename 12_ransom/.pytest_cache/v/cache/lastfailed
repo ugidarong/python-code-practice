@@ -1,0 +1,6 @@
+{
+  "test.py::test_text1": true,
+  "test.py::test_text2": true,
+  "test.py::test_file1": true,
+  "test.py::test_file2": true
+}

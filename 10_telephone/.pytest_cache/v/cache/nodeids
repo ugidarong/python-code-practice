@@ -1,0 +1,12 @@
+[
+  "test.py::test_bad_mutation",
+  "test.py::test_bad_mutation_str",
+  "test.py::test_bad_seed_str",
+  "test.py::test_exists",
+  "test.py::test_for_echo",
+  "test.py::test_fox_file_s1",
+  "test.py::test_fox_file_s2_m6",
+  "test.py::test_now_cmd_s1",
+  "test.py::test_now_cmd_s2_m4",
+  "test.py::test_usage"
+]

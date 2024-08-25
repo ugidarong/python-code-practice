@@ -8,7 +8,7 @@ import re
 import string
 from subprocess import getstatusoutput
 
-prg = './bottles.py'
+prg = 'bottles.py'
 
 
 # --------------------------------------------------

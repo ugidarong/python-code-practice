@@ -1,0 +1,9 @@
+[
+  "test.py::test_apple",
+  "test.py::test_chair",
+  "test.py::test_chair_uppercase",
+  "test.py::test_exists",
+  "test.py::test_no_vowels",
+  "test.py::test_take",
+  "test.py::test_usage"
+]

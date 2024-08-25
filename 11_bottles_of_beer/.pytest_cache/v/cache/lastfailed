@@ -1,0 +1,4 @@
+{
+  "test.py::test_one": true,
+  "bottles.py::test_verse": true
+}

@@ -5,7 +5,7 @@ import os
 import random
 from subprocess import getoutput
 
-prg = './rhymer.py'
+prg = 'rhymer.py'
 
 
 # --------------------------------------------------

@@ -6,7 +6,7 @@ import re
 import random
 from subprocess import getstatusoutput
 
-prg = './ransom.py'
+prg = 'ransom.py'
 fox = '../inputs/fox.txt'
 now = '../inputs/now.txt'
 

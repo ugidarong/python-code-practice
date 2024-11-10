@@ -29,7 +29,6 @@ def get_args():
                         type=str,
                         nargs='*')
 
-
     return parser.parse_args()
 
 
@@ -41,17 +40,15 @@ def main():
     inputs = args.inputs
     text = args.file.read().rstrip()
     matches = re.findall('(<([^<>]+)>)', text)
-    print(text)
-    if inputs != None:
-        print(inputs)
-        for i in matches:
-            print(i)
-    else:
-        temp= []
-        for k in matches:
-            temp.append(k[1])
-        print(temp)
+    
+    if not matches:
+        sys.exit(f'"{args.file.name}" has no placeholders.')
 
+    for placeholder, name in matches:
+        article = 'an' if name.lower()[0] in 'aeiou' else 'a'
+        answer = inputs.pop(0) if inputs else input(f'Give me {article} {name} : ')
+        text = re.sub(placeholder, answer, text, count = 1)
+    print(text)
 
 # --------------------------------------------------
 if __name__ == '__main__':

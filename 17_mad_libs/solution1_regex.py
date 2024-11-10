@@ -46,7 +46,7 @@ def main():
         article = 'an' if pos.lower()[0] in 'aeiou' else 'a'
         answer = inputs.pop(0) if inputs else input(tmpl.format(article, pos))
         text = re.sub(placeholder, answer, text, count=1)
-
+    
     print(text)
 
 

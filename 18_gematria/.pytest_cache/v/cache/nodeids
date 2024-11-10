@@ -1,0 +1,8 @@
+[
+  "test.py::test_exists",
+  "test.py::test_fox",
+  "test.py::test_sonnet",
+  "test.py::test_spiders",
+  "test.py::test_text",
+  "test.py::test_usage"
+]
